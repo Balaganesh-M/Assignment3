@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&family=Fira+Sans:wght@500&family=Merriweather:ital@1&display=swap');
+body{
+     background-color: #881582c2;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     margin:5% 0 0 0;
+     padding: 0 0 0 0;
+     box-sizing: border-box;
+     cursor: pointer;
+     font-family: 'Aboreto', cursive;
+     font-family: 'DynaPuff', cursive;
+     font-family: 'Fira Sans', sans-serif;
+     font-family: 'Merriweather', serif;
+}
+.text{
+     text-align: center;
+     font-size:80px;
+     color: #3b0c5c;
+}
+.calculator {
+     padding: 10px;
+     border-radius: 1em;
+     height: 380px;
+     width: 400px;
+     margin: auto;
+     background-color: #191b28b0;
+     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+     background-color: #dcdbe1;
+     border: solid black 0.5px;
+     color: black;
+     border-radius: 5px;
+     width: 100%;
+     height: 65%;
+     font-size: 35px;
+}
+#btn {
+     background-color: #fb0066;
+}
+input[type=button] {
+     background-color: #64278f;
+     color: white;
+     border: solid black 0.5px;
+     width: 100%;
+     border-radius: 5px;
+     height: 70%;
+     outline: none;
+     font-size: 35px;
+}
+input:active[type=button] {
+     background: #e5e5e5;
+     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+     box-shadow: inset 0px 0px 5px #c1c1c1;
+}
